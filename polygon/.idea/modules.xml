@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/polygon.iml" filepath="$PROJECT_DIR$/polygon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inside-poly/inside-poly.iml" filepath="$PROJECT_DIR$/inside-poly/inside-poly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/polygon.iml" filepath="$PROJECT_DIR$/.idea/modules/polygon.iml" />
     </modules>
   </component>
 </project>

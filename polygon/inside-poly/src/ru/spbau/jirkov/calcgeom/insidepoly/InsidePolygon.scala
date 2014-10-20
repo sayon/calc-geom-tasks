@@ -47,7 +47,7 @@ object InsidePolygon {
 }
 
 
-import ru.spbau.jirkov.calcgeom.insidepoly.InsidePolygon._
+import InsidePolygon._
 
 import scala.io.StdIn.{readDouble, readInt, readLine}
 
@@ -74,6 +74,6 @@ object Solver extends App {
   val checker = check(poly) _
 
   for (query <- queries)
-    println(checker(query))
+    println(if ( checker(query)) "yes" else "no")
 
 }
